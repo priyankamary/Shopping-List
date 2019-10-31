@@ -2,7 +2,6 @@ var mongoose = require('mongoose');
 
 var ListSchema = new mongoose.Schema({
     itemName: String,
-    itemDescription: String,
     createdBy: String
 });
 
